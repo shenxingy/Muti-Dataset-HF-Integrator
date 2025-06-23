@@ -1,0 +1,246 @@
+{
+  "CodecFake": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "spoof",
+      "attack_type": "tts",
+      "attack_model": "funcodec",
+      "duration": 4.225875
+    }
+  },
+  "CodecFake2": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "spoof",
+      "attack_type": "tts",
+      "attack_model": "tortoise_tts",
+      "duration": 8.5866875
+    }
+  },
+  "VoxCelebSpoof_EdgeTTS": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "bonafide",
+      "attack_type": "none",
+      "attack_model": "none",
+      "duration": 5.0
+    }
+  },
+  "VoxCelebSpoof_dataset": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "bonafide",
+      "attack_type": "none",
+      "attack_model": "none",
+      "duration": 10.0
+    }
+  },
+  "XTTS_data": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64",
+      "original_file": "ValueType: string",
+      "transcript": "ValueType: string"
+    },
+    "label_unique_values": [
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 22050,
+      "label": "spoof",
+      "attack_type": "tts",
+      "attack_model": "XTTS",
+      "duration": 2.147,
+      "original_file": "en_US/by_book/male/elliot_miller/poisoned_pen/wavs/poisoned_pen_06_f000187.wav",
+      "transcript": "the gas has ruptured some veins."
+    }
+  },
+  "asvspoof_la_10256": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64",
+      "utt_id": "ValueType: string"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "bonafide",
+      "attack_type": "none",
+      "attack_model": "none",
+      "duration": 2.9409375,
+      "utt_id": "LA_T_8638376"
+    }
+  },
+  "asvspoof_la_openvoice": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64",
+      "utt_id": "ValueType: string",
+      "prompt": "ValueType: string"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "bonafide",
+      "attack_type": "none",
+      "attack_model": "none",
+      "duration": 5.7150625,
+      "utt_id": "LA_T_1475339",
+      "prompt": null
+    }
+  },
+  "for_dataset_final": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64",
+      "file_path": "ValueType: string"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 16000,
+      "label": "bonafide",
+      "attack_type": "none",
+      "attack_model": "none",
+      "duration": 2.9445,
+      "file_path": "/mnt/harddisk/voice_dataset/for-original/training/real/file32614.wav"
+    }
+  },
+  "mlaad_20000": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64"
+    },
+    "label_unique_values": [
+      "bonafide",
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 22050,
+      "label": "spoof",
+      "attack_type": "tts",
+      "attack_model": "tts_models_multilingual_multi-dataset_bark",
+      "duration": 6.883310657596372
+    }
+  },
+  "openvoice_2000_v2_varlen": {
+    "features": {
+      "audio_tensor": "ValueType: list",
+      "sample_rate": "ValueType: int64",
+      "label": "ValueType: string",
+      "attack_type": "ValueType: string",
+      "attack_model": "ValueType: string",
+      "duration": "ValueType: float64",
+      "utt_id": "ValueType: string",
+      "prompt": "ValueType: string"
+    },
+    "label_unique_values": [
+      "spoof"
+    ],
+    "label_meanings": {},
+    "example": {
+      "audio_tensor": "<tensor with 1 elements>",
+      "sample_rate": 22050,
+      "label": "spoof",
+      "attack_type": "tts",
+      "attack_model": "openvoice_v2",
+      "duration": 2.078185941043084,
+      "utt_id": "openvoice_v2_0000",
+      "prompt": "Fires bark soon."
+    }
+  }
+}
