@@ -10,8 +10,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -21,7 +21,15 @@
       "attack_type": "tts",
       "attack_model": "funcodec",
       "duration": 4.225875
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "CodecFake2": {
     "num_samples": 22000,
@@ -34,8 +42,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -45,7 +53,15 @@
       "attack_type": "tts",
       "attack_model": "tortoise_tts",
       "duration": 8.5866875
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "VoxCelebSpoof_EdgeTTS": {
     "num_samples": 3100,
@@ -58,8 +74,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -69,7 +85,15 @@
       "attack_type": "none",
       "attack_model": "none",
       "duration": 5.0
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "VoxCelebSpoof_dataset": {
     "num_samples": 18255,
@@ -82,8 +106,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -93,7 +117,15 @@
       "attack_type": "none",
       "attack_model": "none",
       "duration": 10.0
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "XTTS_data": {
     "num_samples": 2000,
@@ -120,7 +152,15 @@
       "duration": 2.147,
       "original_file": "en_US/by_book/male/elliot_miller/poisoned_pen/wavs/poisoned_pen_06_f000187.wav",
       "transcript": "the gas has ruptured some veins."
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "asvspoof_la_10256": {
     "num_samples": 10256,
@@ -134,8 +174,8 @@
       "utt_id": "ValueType: string"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -146,7 +186,15 @@
       "attack_model": "none",
       "duration": 2.9409375,
       "utt_id": "LA_T_8638376"
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "asvspoof_la_openvoice": {
     "num_samples": 2100,
@@ -161,8 +209,8 @@
       "prompt": "ValueType: string"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -174,7 +222,15 @@
       "duration": 5.7150625,
       "utt_id": "LA_T_1475339",
       "prompt": null
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "for_dataset_final": {
     "num_samples": 21997,
@@ -188,8 +244,8 @@
       "file_path": "ValueType: string"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -200,7 +256,15 @@
       "attack_model": "none",
       "duration": 2.9445,
       "file_path": "/mnt/harddisk/voice_dataset/for-original/training/real/file32614.wav"
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "mlaad_20000": {
     "num_samples": 20000,
@@ -213,8 +277,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "spoof",
-      "bonafide"
+      "bonafide",
+      "spoof"
     ],
     "label_meanings": {},
     "example": {
@@ -224,7 +288,15 @@
       "attack_type": "tts",
       "attack_model": "tts_models_multilingual_multi-dataset_bark",
       "duration": 6.883310657596372
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   },
   "openvoice_2000_v2_varlen": {
     "num_samples": 2000,
@@ -251,6 +323,14 @@
       "duration": 2.078185941043084,
       "utt_id": "openvoice_v2_0000",
       "prompt": "Fires bark soon."
-    }
+    },
+    "split_presence": {
+      "train": true,
+      "test": false,
+      "validation": false
+    },
+    "all_splits": [
+      "train"
+    ]
   }
 }
