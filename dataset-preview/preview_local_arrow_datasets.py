@@ -71,12 +71,15 @@ def analyze_dataset(folder_path):
             label_meanings = {i: features["label"].int2str(i) for i in label_values}
 
         example = sanitize_large_fields(dataset[0])
+        num_samples = len(dataset)
 
         return {
+            "num_samples": num_samples,
             "features": feature_info,
             "label_unique_values": list(label_values),
             "label_meanings": label_meanings,
             "example": example
+            
         }
 
     except Exception as e:

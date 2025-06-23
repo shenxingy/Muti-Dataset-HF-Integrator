@@ -1,5 +1,6 @@
 {
   "CodecFake": {
+    "num_samples": 2100,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -9,8 +10,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -23,6 +24,7 @@
     }
   },
   "CodecFake2": {
+    "num_samples": 22000,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -32,8 +34,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -46,6 +48,7 @@
     }
   },
   "VoxCelebSpoof_EdgeTTS": {
+    "num_samples": 3100,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -55,8 +58,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -69,6 +72,7 @@
     }
   },
   "VoxCelebSpoof_dataset": {
+    "num_samples": 18255,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -78,8 +82,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -92,6 +96,7 @@
     }
   },
   "XTTS_data": {
+    "num_samples": 2000,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -118,6 +123,7 @@
     }
   },
   "asvspoof_la_10256": {
+    "num_samples": 10256,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -128,8 +134,8 @@
       "utt_id": "ValueType: string"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -143,6 +149,7 @@
     }
   },
   "asvspoof_la_openvoice": {
+    "num_samples": 2100,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -154,8 +161,8 @@
       "prompt": "ValueType: string"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -170,6 +177,7 @@
     }
   },
   "for_dataset_final": {
+    "num_samples": 21997,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -180,8 +188,8 @@
       "file_path": "ValueType: string"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -195,6 +203,7 @@
     }
   },
   "mlaad_20000": {
+    "num_samples": 20000,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
@@ -204,8 +213,8 @@
       "duration": "ValueType: float64"
     },
     "label_unique_values": [
-      "bonafide",
-      "spoof"
+      "spoof",
+      "bonafide"
     ],
     "label_meanings": {},
     "example": {
@@ -218,6 +227,7 @@
     }
   },
   "openvoice_2000_v2_varlen": {
+    "num_samples": 2000,
     "features": {
       "audio_tensor": "ValueType: list",
       "sample_rate": "ValueType: int64",
